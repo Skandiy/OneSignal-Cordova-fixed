@@ -45,7 +45,7 @@
       <amazon:enable-feature android:name="com.amazon.device.messaging" android:required="false" xmlns:amazon="http://schemas.amazon.com/apk/res/android" />
       <service android:name="com.onesignal.ADMMessageHandler" android:exported="false" />
       <receiver
-        android:exported="true"
+        android:exported="false"
         android:name="com.onesignal.ADMMessageHandler$Receiver"
         android:permission="com.amazon.device.messaging.permission.SEND" >
         <intent-filter>
