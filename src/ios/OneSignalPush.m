@@ -228,9 +228,9 @@ static Class delegateClass = nil;
     [OneSignal registerForPushNotifications];
 }
     
-// - (void)setLocationShared:(CDVInvokedUrlCommand *)command {
-//    [OneSignal setLocationShared:command.arguments[0]];
-// }
+- (void)setLocationShared:(CDVInvokedUrlCommand *)command {
+   [OneSignal setLocationShared:command.arguments[0]];
+}
 
 - (void)promptForPushNotificationsWithUserResponse:(CDVInvokedUrlCommand*)command {
    promptForPushNotificationsWithUserResponseCallbackId = command.callbackId;
@@ -260,9 +260,9 @@ static Class delegateClass = nil;
     }];
 }
 
-// - (void)promptLocation:(CDVInvokedUrlCommand*)command {
-//    [OneSignal promptLocation];
-// }
+- (void)promptLocation:(CDVInvokedUrlCommand*)command {
+   [OneSignal promptLocation];
+}
 
 - (void)syncHashedEmail:(CDVInvokedUrlCommand*)command {
    [OneSignal syncHashedEmail:command.arguments[0]];
