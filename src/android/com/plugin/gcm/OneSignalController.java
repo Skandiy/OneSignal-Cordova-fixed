@@ -126,17 +126,17 @@ public class OneSignalController {
    * Location
    */
 
-  public static void promptLocation() {
-    OneSignal.promptLocation();
-  }
+//   public static void promptLocation() {
+//     OneSignal.promptLocation();
+//   }
 
-  public static void setLocationShared(JSONArray data) {
-    try {
-      OneSignal.setLocationShared(data.getBoolean(0));
-    } catch (JSONException e) {
-      e.printStackTrace();
-    }
-  }
+//   public static void setLocationShared(JSONArray data) {
+//     try {
+//       OneSignal.setLocationShared(data.getBoolean(0));
+//     } catch (JSONException e) {
+//       e.printStackTrace();
+//     }
+//   }
 
   /**
    * Misc

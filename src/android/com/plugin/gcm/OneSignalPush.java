@@ -73,7 +73,7 @@ public class OneSignalPush extends CordovaPlugin {
 
   private static final String SET_SUBSCRIPTION = "setSubscription";
   private static final String POST_NOTIFICATION = "postNotification";
-  private static final String PROMPT_LOCATION = "promptLocation";
+//   private static final String PROMPT_LOCATION = "promptLocation";
   private static final String CLEAR_ONESIGNAL_NOTIFICATIONS = "clearOneSignalNotifications";
 
   private static final String SET_EMAIL = "setEmail";
@@ -83,7 +83,7 @@ public class OneSignalPush extends CordovaPlugin {
 
   private static final String SET_LOG_LEVEL = "setLogLevel";
 
-  private static final String SET_LOCATION_SHARED = "setLocationShared";
+//   private static final String SET_LOCATION_SHARED = "setLocationShared";
 
   private static final String USER_PROVIDED_CONSENT = "userProvidedPrivacyConsent";
   private static final String SET_REQUIRES_CONSENT = "setRequiresUserPrivacyConsent";
@@ -229,9 +229,9 @@ public class OneSignalPush extends CordovaPlugin {
         result = OneSignalController.postNotification(callbackContext, data);
         break;
 
-      case PROMPT_LOCATION:
-        OneSignalController.promptLocation();
-        break;
+//       case PROMPT_LOCATION:
+//         OneSignalController.promptLocation();
+//         break;
 
       case SYNC_HASHED_EMAIL:
         OneSignalEmailController.syncHashedEmail(data);
@@ -257,9 +257,9 @@ public class OneSignalPush extends CordovaPlugin {
         result = OneSignalEmailController.logoutEmail(callbackContext);
         break;
 
-      case SET_LOCATION_SHARED:
-        OneSignalController.setLocationShared(data);
-        break;
+//       case SET_LOCATION_SHARED:
+//         OneSignalController.setLocationShared(data);
+//         break;
 
       case USER_PROVIDED_CONSENT:
         result = OneSignalController.userProvidedConsent(callbackContext);

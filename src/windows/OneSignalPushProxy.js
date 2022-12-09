@@ -75,7 +75,7 @@ module.exports = {
   enableInAppAlertNotification: function (successCallback, errorCallback, params) { },
   setSubscription: function (successCallback, errorCallback, params) { },
   postNotification: function (successCallback, errorCallback, params) { },
-  promptLocation: function (successCallback, errorCallback, params) { },
+  // promptLocation: function (successCallback, errorCallback, params) { },
   syncHashedEmail: function (successCallback, errorCallback, params) { },
   setLogLevel: function (successCallback, errorCallback, params) { },
   promptForPushNotificationsWithUserResponse: function (successCallback, errorCallback, params) { },

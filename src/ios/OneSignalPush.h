@@ -53,9 +53,9 @@
 - (void)setSubscription:(CDVInvokedUrlCommand*)command;
 - (void)postNotification:(CDVInvokedUrlCommand*)command;
 - (void)setLogLevel:(CDVInvokedUrlCommand*)command;
-- (void)promptLocation:(CDVInvokedUrlCommand*)command;
+//- (void)promptLocation:(CDVInvokedUrlCommand*)command;
 - (void)syncHashedEmail:(CDVInvokedUrlCommand*)command;
-- (void)setLocationShared:(CDVInvokedUrlCommand *)command;
+//- (void)setLocationShared:(CDVInvokedUrlCommand *)command;
 
 //email
 - (void)setEmail:(CDVInvokedUrlCommand *)command;
